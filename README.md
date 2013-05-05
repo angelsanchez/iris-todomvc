@@ -77,4 +77,4 @@ Waiting...
 For more information visit [thegameofcode.com post](http://www.thegameofcode.com/2013/05/front-end-with-iris-nodejs-gruntjs.html).
 
 
-# Template: [TodoMVC](http://todomvc.com) created by [Sindre Sorhus](http://sindresorhus.com).
+Template: [TodoMVC](http://todomvc.com) created by [Sindre Sorhus](http://sindresorhus.com).
