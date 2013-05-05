@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['src/**/*.js'],
-        tasks: ['jshint', 'uglify'],
+        tasks: ['jshint'],
         options: {
           nospawn: true
         }
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
     var pkg = grunt.file.readJSON('package.json');
     var irisBaseUri = pkg.iris.baseUri;
     var destFile = pkg.iris.init;
-    grunt.log.writeln('Configurations: pkg.iris.baseUri[' + irisBaseUri + '] pkg.iris.init[' + destFile + ']');
+    grunt.log.writeln('Configurations: baseUri['+ irisBaseUri +'] init['+ destFile +']');
     
     var templates = '';
     grunt.file.expand({cwd : irisBaseUri}, '**/*.html').forEach(function(file){
